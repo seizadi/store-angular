@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20140813031346) do
 
-  create_table "orders", force: true do |t|
+  create_table "orders", force: :cascade do |t|
     t.decimal  "price"
     t.boolean  "shipping"
     t.datetime "purchased_at"

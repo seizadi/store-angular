@@ -22,5 +22,4 @@
 //* require scatter
 //* require line
 //* require lineChart
-//= require turbolinks
 //= require_tree .
