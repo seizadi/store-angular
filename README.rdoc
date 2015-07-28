@@ -1,0 +1,28 @@
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version  2.0.0p481
+
+* System dependencies Tested on MacOS X 10.9.4 (13E28)
+
+* Deployment instructions
+
+   $ bundle install
+   
+   Copy config/database.yml.example file to config/database.yml and overwrite
+   database connection settings if necessary.
+ 
+   $ bundle exec rake db:reset
+   $ bundle exec rake db:migrate
+
+   To load database with test data:     
+   $ bundle exec rake db:populate
+   
+   $ rails server
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
